@@ -1,13 +1,4 @@
-
-Politechnika Śląska </br>
-Wydział Informatyki, Elektroniki i Informatyki</br>
-Programowanie Komputerów</br>
-Gra Arkanoid</br>
-autor Marta Wichłacz</br>
-rok akademicki 2021/2022</br>
-kierunek informatyka</br>
-rodzaj studiów SSI</br>
-semestr 4</br></br>
+# Arkanoid
 <b>Temat</b></br>
 Program jest prostą, zręcznościową grą 2D wzorowaną na Arkanoid.
 Rozgrywka polega na manipulowaniu za pomocą strzałek platformą w taki sposób, aby
