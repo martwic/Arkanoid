@@ -1,14 +1,14 @@
 
-Politechnika Śląska
-Wydział Informatyki, Elektroniki i Informatyki
-Programowanie Komputerów
-Gra Arkanoid
-autor Marta Wichłacz
-rok akademicki 2021/2022
-kierunek informatyka
-rodzaj studiów SSI
-semestr 4
-Temat
+Politechnika Śląska </br>
+Wydział Informatyki, Elektroniki i Informatyki</br>
+Programowanie Komputerów</br>
+Gra Arkanoid</br>
+autor Marta Wichłacz</br>
+rok akademicki 2021/2022</br>
+kierunek informatyka</br>
+rodzaj studiów SSI</br>
+semestr 4</br></br>
+<b>Temat</b></br>
 Program jest prostą, zręcznościową grą 2D wzorowaną na Arkanoid.
 Rozgrywka polega na manipulowaniu za pomocą strzałek platformą w taki sposób, aby
 odbijać piłkę i trafiać kolorowe bloki wiszące w górnej części ekranu. Aby zniszczyć blok
@@ -17,8 +17,8 @@ blok czerwony na żółty – zniszczenie żółtego bloku wymaga w sumie dwóch
 czerwonego – trzech. Punktowane jest każde trafienie, więc za strącenie czerwonego bloku
 otrzymamy w sumie trzy punkty.
 Gra może się zakończyć na dwa sposoby: wygraną – gdy wszystkie bloki zostaną
-zniszczone, lub przegraną w przypadku utraty piłki.
-Analiza tematu
+zniszczone, lub przegraną w przypadku utraty piłki.</br></br>
+<b>Analiza tematu</b></br>
 Gra została napisana przy użyciu biblioteki graficznej SFML (Simple and Fast
 Multimedia Library). Wybór padł na tę bibliotekę ze względu na brak uprzednich
 doświadczeń z tworzeniem programów okienkowych i dużą liczbę materiałów do
@@ -32,17 +32,17 @@ Klasy zostały dobrane do pewnego stopnia intuicyjnie – rzeczywiste elementy g
 stanowią odrębne klasy np. BlockField, Ball, Paddle. Występują również klasy
 odpowiedzialne za poszczególne okna i sterowanie dostępnymi w nich funkcjonalnościami,
 np. Menu, Arkanoid, Ranking. Klasa Game jest klasą, która steruje całym programem i
-przełączaniem okienek.
-Specyfikacja zewnętrzna
+przełączaniem okienek.</br></br>
+<b>Specyfikacja zewnętrzna</b></br>
 Program może ustać uruchomiony zarówno z wiersza poleceń, po podaniu ścieżki do
 pliku, jak i poprzez bezpośrednie uruchomienie pliku wykonywalnego z rozszerzeniem .exe
 ze względu na brak używania przełączników.
 Po uruchomieniu gry wyświetli się menu z opcjami: PLAY, RANKING oraz EXIT. Domyślnie
 zaznaczonym polem jest ‘PLAY’. Między polami można się poruszać za pomocą strzałek w
 górę oraz w dół. Wybrane pole zatwierdza się klawiszem ‘Enter’.
-Zatwierdzenie powoduje następujące akcje:
-• PLAY – przejście do okienka, w którym należy wpisać swoje imię lub nick.
+Zatwierdzenie powoduje następujące akcje:</br>
+• PLAY – przejście do okienka, w którym należy wpisać swoje imię lub nick.</br>
 • RANKING – przejście do okna, w którym są wyświetlane trzy pierwsze miejsca w
 rankingu zawierające nick gracza oraz ilość zdobytych przez niego punktów. Z
 tego okna do menu można wyjść poprzez wciśnięcie klawisza Escape na
-klawiaturze.
+klawiaturze.</br>
